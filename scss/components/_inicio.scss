@@ -42,15 +42,6 @@ header{
 }
 
 main{
-    section{
-        div{
-            a{
-                text-decoration: none;
-                background-color: rgba(0, 0, 0, 0.43);
-                color: white;
-            }
-        }
-    }
     .bienvenidos{
         font-family: sss;
         font-size: 50px;
@@ -181,7 +172,7 @@ footer{
         font-size: 13px;
     }
 
-    .juegosofertas3 .h3h4a{
+    main .juegosofertas3 .h3h4a{
         font-size: 10px;
     }
     .titulodeofertas h2{

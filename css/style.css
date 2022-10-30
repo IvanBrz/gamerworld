@@ -409,19 +409,19 @@ nav{
 
 /*!---------------------PAGINA CATEGORIAS------------------------*/
 
-main{
+/* main{
     padding: 30px;
-}
+} */
 
 
-.dropdown button{
+/* .dropdown button{
     background: none;
     border: none;
     font-size: 25px;
-}
+} */
 
 
-main .titulocat{
+/* main .titulocat{
     font-family: sss;
     font-size: 50px;
     text-align: center;
@@ -434,16 +434,16 @@ main .titulocat{
     animation-name: slidefromleft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-}
+} */
 
-.juegoscat3{
+/* .juegoscat3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 100px;
-}
+} */
 
-.juegoscat3 div{
+/* .juegoscat3 div{
     color: rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -456,29 +456,29 @@ main .titulocat{
     border-radius: 10px;
     transition: 1s;
 }
-
-.juegoscat3 div:hover{
+ */
+/* .juegoscat3 div:hover{
     background-color: rgb(189, 19, 19);
     transform:scale(1.1);
-}
+} */
 
-.juegocat3 div h3,a:hover{
+/* .juegocat3 div h3,a:hover{
     color: white;
-}
+} */
 
-main section div a{
+/* main section div a{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.43);
     color: white;
-}
+} */
 
 
 
 
-main .paginas{
+/* main .paginas{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 
@@ -540,17 +540,17 @@ main .paginas{
     color: #F00;
 }
 
-
+/* 
 main section div a{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.43);
     color: white;
-}
+} */
 
-main section div a:hover{
+/* main section div a:hover{
     background-color: rgb(0, 0, 0);
 }
-
+ */
 
 
 

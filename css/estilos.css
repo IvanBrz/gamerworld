@@ -32,7 +32,14 @@ header {
 main {
   background-image: url(../img/fondogris2.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding: 30px; }
+  main section div a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white; }
+    main section div a:hover {
+      background-color: black; }
 
 footer {
   background-image: url(../img/fondonuevo4.png);
@@ -79,11 +86,6 @@ header {
         color: aliceblue; }
         header nav ul a:hover {
           color: #37dfce; }
-
-main section div a {
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.43);
-  color: white; }
 
 main .bienvenidos {
   font-family: sss;
@@ -185,7 +187,7 @@ footer div {
     grid-template-columns: repeat(3, 1fr); }
   main .juegos3 div {
     font-size: 13px; }
-  .juegosofertas3 .h3h4a {
+  main .juegosofertas3 .h3h4a {
     font-size: 10px; }
   .titulodeofertas h2 {
     font-size: 40px; }
@@ -282,3 +284,49 @@ footer div {
     margin: 5px; }
   section .container .col h3 {
     font-size: 10px; } }
+
+/*!---------------------PAGINA CATEGORIAS------------------------*/
+main .titulocat {
+  font-family: sss;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #912C22;
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #FFFFFF;
+  background: #232323;
+  animation-name: slidefromleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+main .dropdown button {
+  background: none;
+  border: none;
+  font-size: 25px; }
+
+main .juegoscat3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px; }
+  main .juegoscat3 div {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.497);
+    text-decoration: none;
+    padding: 3px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s; }
+    main .juegoscat3 div:hover {
+      background-color: #bd1313;
+      transform: scale(1.1); }
+    main .juegoscat3 div h3, main .juegoscat3 div a:hover {
+      color: white; }
+
+main .paginas {
+  display: flex;
+  justify-content: center; }
