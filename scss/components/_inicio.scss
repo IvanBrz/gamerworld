@@ -1,0 +1,326 @@
+
+
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        .hero{
+            text-decoration: none;
+            text-align: center;
+            font-family: headerfont;
+            color: aqua;
+                h1{
+                    font-size: 65px;
+                    font-weight: bold;
+                    &:hover{
+                        color: aqua;
+                    }
+                }
+        }
+        nav{
+            width: 1440px;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+                align-items: flex-start;
+                font-size: 25px;
+                font-family: 'Roboto Condensed', sans-serif;
+                a{
+                    text-decoration: none; 
+                    color: aliceblue;
+                    &:hover{
+                        color: #37dfce;
+                    } 
+                }
+            }
+        }
+}
+
+main{
+    section{
+        div{
+            a{
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0.43);
+                color: white;
+            }
+        }
+    }
+    .bienvenidos{
+        font-family: sss;
+        font-size: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0 0 10px #FFFFFF;
+        color: #FFFFFF;
+        background: #232323;
+    
+        animation-name: slidefromleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    .juegos3{
+        width: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+            div{
+                color: rgb(0, 0, 0);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.497);
+                text-decoration: none;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                margin-top: 50px;
+                padding: 3px;
+                transition: 1s;
+                &:hover{
+                    background-color: rgb(8, 214, 255);
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 100%;
+                    height: 65%;
+                    object-fit: cover;
+                }
+            }
+    }
+    .juegodelacontainer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.378);
+        padding: 10px;
+        margin: 10px;
+        .juegodela{
+            .titulovideo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                color: yellow;
+            }
+            a{
+                font-family: sss;
+                font-size: 35px;
+                text-decoration: none;
+                color: aqua;
+            }
+            span{
+                color: yellow;
+            }
+        }
+    }
+}
+
+
+.carrito{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgba(7, 171, 182, 0.69);
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+        &:hover{
+            background-color: aqua;
+        }
+        a{
+            text-decoration: none;
+        }
+}
+
+footer{
+    ul{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: 'Roboto Condensed', sans-serif;
+                color: white;
+                &:hover{
+                    color: #37dfce;
+                }
+            }
+        }
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+/****************MEDIA QUERY***************/
+
+
+
+@media screen and (max-width:950px){
+    main .juegos3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    main .juegos3 div{
+        font-size: 13px;
+    }
+
+    .juegosofertas3 .h3h4a{
+        font-size: 10px;
+    }
+    .titulodeofertas h2{
+        font-size: 40px;
+    }
+    .titulofaq h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:650px){
+    main .bienvenidos{
+        font-size: 30px;
+    }
+    main .juegos3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main .juegos3 div{
+        font-size: 15px;
+    }
+    main .juegodelacontainer .juegodela a{
+        font-size: 25px;
+    }
+    header .hero h1{
+        font-size: 55px;
+    }
+    header nav ul {
+        margin: 50px;
+        font-size: 20px;
+    }
+    iframe{
+        width: 450px;
+        height: 275px;
+    }
+    main .juegosofertas3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tituloform h2{
+        font-size: 40px;
+    }
+    .maincontact h2{
+        font-size: 30px;
+    }
+    .maincontact label{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:530px){
+    header .hero h1{
+        font-size: 55px;
+    }
+    header nav ul{
+        margin: 50px;
+    }
+    main .juegos3 div{
+        font-size: 10px;
+    }
+    main .juegodelacontainer .juegodela a{
+        font-size: 20px;
+    }
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+    .titulodeofertas h2{
+        font-size: 30px;
+    }
+    .titulofaq h2{
+        font-size: 30px;
+    }
+    .faqsec h2{
+        font-size: 25px;
+    }
+    .faqsec p{
+        font-size: 15px;
+    }
+    main .juegos3 div{
+        font-size: 8px;
+    }
+    section .container .col h3{
+        font-size: 15px;
+    }
+    section .container .col p{
+        font-size: 10px;
+        margin: 0%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    main .bienvenidos{
+        font-size: 20px;
+    }
+    header{
+        height: 130px;
+    }
+    header nav ul{
+        font-size: 15px;
+        margin: 50px;
+    }
+    header .hero h1{
+        font-size: 40px;
+    }
+    main .juegodelacontainer .juegodela a{
+        font-size: 15px;
+    }
+    main .juegodelacontainer .titulovideo h3{
+        font-size: 15px;
+    }
+    iframe{
+        width: 250px;
+        height: 200px;
+    }
+    .juegosofertas3 .h3h4a{
+        font-size: 7px;
+    }
+    .titulodeofertas h2{
+        font-size: 25px;
+    }
+    .titulofaq h2{
+        font-size: 25px;
+    }
+    .faqsec h2{
+        font-size: 20px;
+    }
+    .faqsec p{
+        font-size: 10px;
+    }
+    .maincontact label{
+        font-size: 20px;
+    }
+    .maincontact select{
+        inline-size: 250px;
+    }
+    section .container .col p{
+        font-size: 7px;
+        margin: 5px;
+    }
+    section .container .col h3{
+        font-size: 10px;
+    }
+}
