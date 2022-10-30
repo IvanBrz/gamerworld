@@ -556,7 +556,7 @@ main section div a{
 
 /*!-------------------------PAGINA FAQ--------------------------*/
 
-.titulofaq{
+/* .titulofaq{
     font-family: sss;
     font-size: 50px;
     text-align: center;
@@ -569,11 +569,11 @@ main section div a{
     animation-name: slidefromleft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-}
+} */
 
 
 
-section .col{
+/* section .col{
     border: 2px solid aqua;
     text-align: center;
     padding: 10px;
@@ -582,18 +582,18 @@ section .col{
     background-color: rgba(0, 0, 0, 0.727);
     color: rgba(0, 255, 255, 0.699);
     font-size: 25px;
-}
+} */
 
-section .col p{
+/* section .col p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: rgba(237, 226, 226, 0.84);
     margin: 10px;
-}
+} */
 
-section .col:hover{
+/* section .col:hover{
     background-color: rgb(0, 0, 0);
-}
+} */
 
 
 

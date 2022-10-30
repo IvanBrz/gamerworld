@@ -32,6 +32,7 @@ header{
                 align-items: flex-start;
                 font-size: 25px;
                 font-family: 'Roboto Condensed', sans-serif;
+                padding-left: 0%;
                 a{
                     text-decoration: none; 
                     color: aliceblue;
@@ -140,6 +141,7 @@ main{
 
 footer{
     ul{
+        padding-left: 0%;
         li{
             a{
                 display: flex;
@@ -178,9 +180,6 @@ footer{
         font-size: 10px;
     }
     main .titulodeofertas h2{
-        font-size: 40px;
-    }
-    .titulofaq h2{
         font-size: 40px;
     }
 }
@@ -240,25 +239,16 @@ footer{
         width: 300px;
         height: 250px;
     }
-    .titulodeofertas h2{
+    main .titulodeofertas h2{
         font-size: 30px;
-    }
-    .titulofaq h2{
-        font-size: 30px;
-    }
-    .faqsec h2{
-        font-size: 25px;
-    }
-    .faqsec p{
-        font-size: 15px;
     }
     main .juegos3 div{
         font-size: 8px;
     }
-    section .container .col h3{
+    main .container .row .col h3{
         font-size: 15px;
     }
-    section .container .col p{
+    main .container .row .col p{
         font-size: 10px;
         margin: 0%;
     }
@@ -294,26 +284,16 @@ footer{
     main .titulodeofertas h2{
         font-size: 25px;
     }
-    .titulofaq h2{
-        font-size: 25px;
-    }
-    .faqsec h2{
-        font-size: 20px;
-    }
-    .faqsec p{
+    main .container .row .col h2{
         font-size: 10px;
+    }
+    main .container .row .col p{
+        font-size: 7px;
     }
     .maincontact label{
         font-size: 20px;
     }
     .maincontact select{
         inline-size: 250px;
-    }
-    section .container .col p{
-        font-size: 7px;
-        margin: 5px;
-    }
-    section .container .col h3{
-        font-size: 10px;
     }
 }

@@ -82,7 +82,8 @@ header {
       margin: 30px;
       align-items: flex-start;
       font-size: 25px;
-      font-family: 'Roboto Condensed', sans-serif; }
+      font-family: 'Roboto Condensed', sans-serif;
+      padding-left: 0%; }
       header nav ul a {
         text-decoration: none;
         color: aliceblue; }
@@ -168,15 +169,17 @@ main .juegodelacontainer {
   .carrito a {
     text-decoration: none; }
 
-footer ul li a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: white; }
-  footer ul li a:hover {
-    color: #37dfce; }
+footer ul {
+  padding-left: 0%; }
+  footer ul li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white; }
+    footer ul li a:hover {
+      color: #37dfce; }
 
 footer div {
   display: flex;
@@ -192,8 +195,6 @@ footer div {
   main .juegosofertas3 .h3h4a {
     font-size: 10px; }
   main .titulodeofertas h2 {
-    font-size: 40px; }
-  .titulofaq h2 {
     font-size: 40px; } }
 
 @media screen and (max-width: 650px) {
@@ -234,19 +235,13 @@ footer div {
   iframe {
     width: 300px;
     height: 250px; }
-  .titulodeofertas h2 {
+  main .titulodeofertas h2 {
     font-size: 30px; }
-  .titulofaq h2 {
-    font-size: 30px; }
-  .faqsec h2 {
-    font-size: 25px; }
-  .faqsec p {
-    font-size: 15px; }
   main .juegos3 div {
     font-size: 8px; }
-  section .container .col h3 {
+  main .container .row .col h3 {
     font-size: 15px; }
-  section .container .col p {
+  main .container .row .col p {
     font-size: 10px;
     margin: 0%; } }
 
@@ -271,21 +266,14 @@ footer div {
     font-size: 7px; }
   main .titulodeofertas h2 {
     font-size: 25px; }
-  .titulofaq h2 {
-    font-size: 25px; }
-  .faqsec h2 {
-    font-size: 20px; }
-  .faqsec p {
+  main .container .row .col h2 {
     font-size: 10px; }
+  main .container .row .col p {
+    font-size: 7px; }
   .maincontact label {
     font-size: 20px; }
   .maincontact select {
-    inline-size: 250px; }
-  section .container .col p {
-    font-size: 7px;
-    margin: 5px; }
-  section .container .col h3 {
-    font-size: 10px; } }
+    inline-size: 250px; } }
 
 /*!---------------------PAGINA CATEGORIAS------------------------*/
 main .titulocat {
@@ -372,3 +360,33 @@ main .juegosofertas3 {
       transform: scale(1.1); }
     main .juegosofertas3 div span {
       color: #F00; }
+
+/*!-------------------------PAGINA FAQ--------------------------*/
+main .titulofaq {
+  font-family: sss;
+  text-align: center;
+  color: #FFFFFF;
+  background: #912C22;
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #FFFFFF;
+  background: #232323;
+  animation-name: slidefromleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+main section .col {
+  border: 2px solid aqua;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.727);
+  color: rgba(0, 255, 255, 0.699);
+  font-size: 25px; }
+  main section .col:hover {
+    background-color: black; }
+  main section .col p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgba(237, 226, 226, 0.84);
+    margin: 10px; }
