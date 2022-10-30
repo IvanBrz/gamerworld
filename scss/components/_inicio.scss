@@ -211,13 +211,13 @@ footer{
     body main .juegosofertas3{
         grid-template-columns: repeat(2, 1fr);
     }
-    .tituloform h2{
+    main .tituloform h2{
         font-size: 40px;
     }
-    .maincontact h2{
+    main .maincontact h2{
         font-size: 30px;
     }
-    .maincontact label{
+    main .maincontact label{
         font-size: 25px;
     }
 }
@@ -290,10 +290,10 @@ footer{
     main .container .row .col p{
         font-size: 7px;
     }
-    .maincontact label{
+    main .maincontact label{
         font-size: 20px;
     }
-    .maincontact select{
+    main .maincontact select{
         inline-size: 250px;
     }
 }

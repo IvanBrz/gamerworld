@@ -603,7 +603,7 @@ main section div a{
 
 /*!---------------------PAGINA CONTACTENOS-----------------------*/
 
-.tituloform{
+/* .tituloform{
     font-family: sss;
     font-size: 50px;
     text-align: center;
@@ -617,27 +617,27 @@ main section div a{
     animation-name: slidefromleft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-}
+} */
 
-.maincontact{
+/* .maincontact{
     text-align: center;
     font-size: 32px;
-}
+} */
 
-.maincontact h1{
+/* .maincontact h1{
     color: aqua;
     font-family: sss;
     font-size: 70px;
     background-color: rgba(0, 0, 0, 0.903);
-}
+} */
 
-.maincontact{
+/* .maincontact{
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(0, 0, 0, 0.523);
-}
+} */
 
-.maincontact select{
+/* .maincontact select{
     block-size: 30px;
-}
+} */
