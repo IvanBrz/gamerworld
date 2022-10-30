@@ -1,6 +1,8 @@
 
 
 
+/*!------------------------PAGINA INDEX--------------------------*/
+
 header{
     width: 100%;
     height: 150px;
@@ -175,7 +177,7 @@ footer{
     main .juegosofertas3 .h3h4a{
         font-size: 10px;
     }
-    .titulodeofertas h2{
+    main .titulodeofertas h2{
         font-size: 40px;
     }
     .titulofaq h2{
@@ -207,7 +209,7 @@ footer{
         width: 450px;
         height: 275px;
     }
-    main .juegosofertas3{
+    body main .juegosofertas3{
         grid-template-columns: repeat(2, 1fr);
     }
     .tituloform h2{
@@ -286,10 +288,10 @@ footer{
         width: 250px;
         height: 200px;
     }
-    .juegosofertas3 .h3h4a{
+    main .juegosofertas3 .h3h4a{
         font-size: 7px;
     }
-    .titulodeofertas h2{
+    main .titulodeofertas h2{
         font-size: 25px;
     }
     .titulofaq h2{

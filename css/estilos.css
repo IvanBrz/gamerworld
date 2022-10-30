@@ -1,3 +1,4 @@
+/*!-------------------------GENERALES--------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
   margin: 0;
@@ -55,6 +56,7 @@ footer {
     margin-left: 0%;
     width: 100%; } }
 
+/*!------------------------PAGINA INDEX--------------------------*/
 header {
   width: 100%;
   height: 150px;
@@ -189,7 +191,7 @@ footer div {
     font-size: 13px; }
   main .juegosofertas3 .h3h4a {
     font-size: 10px; }
-  .titulodeofertas h2 {
+  main .titulodeofertas h2 {
     font-size: 40px; }
   .titulofaq h2 {
     font-size: 40px; } }
@@ -211,7 +213,7 @@ footer div {
   iframe {
     width: 450px;
     height: 275px; }
-  main .juegosofertas3 {
+  body main .juegosofertas3 {
     grid-template-columns: repeat(2, 1fr); }
   .tituloform h2 {
     font-size: 40px; }
@@ -265,9 +267,9 @@ footer div {
   iframe {
     width: 250px;
     height: 200px; }
-  .juegosofertas3 .h3h4a {
+  main .juegosofertas3 .h3h4a {
     font-size: 7px; }
-  .titulodeofertas h2 {
+  main .titulodeofertas h2 {
     font-size: 25px; }
   .titulofaq h2 {
     font-size: 25px; }
@@ -330,3 +332,43 @@ main .juegoscat3 {
 main .paginas {
   display: flex;
   justify-content: center; }
+
+/*!--------------------PAGINA OFERTAS--------------------------*/
+main .titulodeofertas {
+  font-family: sss;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #912C22;
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #FFFFFF;
+  background: #232323;
+  animation-name: slidefromleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+main .juegosofertas3 {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px; }
+  main .juegosofertas3 div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.497);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 3px;
+    transition: 1s; }
+    main .juegosofertas3 div img {
+      width: 100%;
+      height: 65%; }
+    main .juegosofertas3 div:hover {
+      background-color: #2d9d2d;
+      transform: scale(1.1); }
+    main .juegosofertas3 div span {
+      color: #F00; }
