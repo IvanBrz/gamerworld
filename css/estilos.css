@@ -175,9 +175,9 @@ header {
       padding-left: 0%; }
       header nav ul a {
         text-decoration: none;
-        color: aliceblue; }
+        color: #cae3ea; }
         header nav ul a:hover {
-          color: #37dfce; }
+          color: aqua; }
 
 main .bienvenidos {
   font-family: sss;
@@ -296,8 +296,8 @@ main .dropdown button {
 
 main .juegoscat3 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 100px; }
   main .juegoscat3 div {
     color: black;

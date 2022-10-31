@@ -1,5 +1,5 @@
 
-
+@import "../base/variables";
 
 /*!------------------------PAGINA INDEX--------------------------*/
 
@@ -13,12 +13,12 @@ header{
             text-decoration: none;
             text-align: center;
             font-family: headerfont;
-            color: aqua;
+            color: $color-principal;
                 h1{
                     font-size: 65px;
                     font-weight: bold;
                     &:hover{
-                        color: aqua;
+                        color: $color-principal;
                     }
                 }
         }
@@ -35,9 +35,9 @@ header{
                 padding-left: 0%;
                 a{
                     text-decoration: none; 
-                    color: aliceblue;
+                    color: $color-ul;
                     &:hover{
-                        color: #37dfce;
+                        color: $color-principal;
                     } 
                 }
             }

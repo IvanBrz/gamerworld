@@ -1,5 +1,5 @@
 
-
+@import "../base/variables";
 
 /*!---------------------PAGINA CATEGORIAS------------------------*/
 
@@ -27,9 +27,7 @@ main{
         }
     }
     .juegoscat3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        @include flex-cat (flex, space-evenly, wrap);
         margin-top: 100px;
             div{
                 color: rgb(0, 0, 0);
