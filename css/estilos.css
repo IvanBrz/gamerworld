@@ -390,6 +390,13 @@ main section .col {
     font-size: 20px;
     color: rgba(237, 226, 226, 0.84);
     margin: 10px; }
+    main section .col p a:hover {
+      color: aqua; }
+    main section .col p .regalofaq {
+      background-color: black; }
+      main section .col p .regalofaq:hover {
+        background-color: #3f3939;
+        color: white; }
 
 /*!---------------------PAGINA CONTACTENOS-----------------------*/
 main .tituloform {

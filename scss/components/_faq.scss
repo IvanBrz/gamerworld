@@ -37,7 +37,18 @@ main{
                         font-size: 20px;
                         color: rgba(237, 226, 226, 0.84);
                         margin: 10px;
+                            a:hover{
+                                color: aqua;
+                            }
+                            .regalofaq{
+                                background-color: black;
+                                &:hover{
+                                    background-color: rgb(63, 57, 57);
+                                    color: white;
+                                }
+                            }
                     }
         }
+
     }
 }
