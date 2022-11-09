@@ -27,6 +27,8 @@
   iframe {
     width: 450px;
     height: 275px; }
+  body main .carousel {
+    padding: 0; }
   body main .juegosofertas3 {
     grid-template-columns: repeat(2, 1fr); }
   body main .tituloform h2 {
@@ -316,6 +318,10 @@ main .juegoscat3 {
       transform: scale(1.1); }
     main .juegoscat3 div h3, main .juegoscat3 div a:hover {
       color: white; }
+
+main .carousel {
+  margin-top: 100px;
+  padding: 100px; }
 
 main .paginas {
   display: flex;

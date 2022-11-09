@@ -45,6 +45,9 @@
         width: 450px;
         height: 275px;
     }
+    body main .carousel{
+        padding: 0;
+    }
     body main .juegosofertas3{
         grid-template-columns: repeat(2, 1fr);
     }
